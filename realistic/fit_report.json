@@ -1,0 +1,40 @@
+{
+  "extents_mm": [
+    44.0,
+    34.0,
+    24.0
+  ],
+  "volume_mm3": 15096.4,
+  "base_mm": 5.0,
+  "wall_mm": 4.0,
+  "wall_measured_mm": 3.15,
+  "mid_roof_zmax_mm": 21.22,
+  "cavity_mm": {
+    "w": 15.5,
+    "depth": 28.0
+  },
+  "opening": {
+    "clear_width_mm": 16.79,
+    "clear_height_mm": 18.3,
+    "target_w": 15.5,
+    "target_h_at_opening": 14.93,
+    "opening_ok": true
+  },
+  "checks": {
+    "size_ok": true,
+    "thick_base": true,
+    "thick_walls": true,
+    "continuous_roof": true,
+    "chair_foot_fits": true,
+    "watertight": true,
+    "is_volume": true,
+    "passes": true
+  },
+  "print_advice": {
+    "orientation": "SIDEWAYS for strength",
+    "material": "PETG / ABS / ASA",
+    "walls": "4\u20136",
+    "infill": "30\u201360%+",
+    "fit_tweak": "CAVITY_W / WALL / HEIGHT if fit is off"
+  }
+}

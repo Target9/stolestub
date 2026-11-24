@@ -1,0 +1,47 @@
+{
+  "extents_mm": [
+    45.0,
+    34.0,
+    26.0
+  ],
+  "volume_mm3": 28135.7,
+  "floor_contact_area_mm2": 1397.8,
+  "base_thickness_mm": 8.0,
+  "wall_thickness_mm": 5.5,
+  "roof_thickness_mm": 5.0,
+  "fillet_mm": 5.0,
+  "cavity_mm": {
+    "w": 16.0,
+    "h": 13.0,
+    "depth": 32.0
+  },
+  "estimated_petg_capacity_kg_per_leg": 2992.3,
+  "design_load_kg_per_leg": 50.0,
+  "safety_factor": 59.85,
+  "checks": {
+    "size_ok": true,
+    "thick_base": true,
+    "thick_walls": true,
+    "fillets": true,
+    "roof_ok": true,
+    "watertight": true,
+    "is_volume": true,
+    "safety_ge_3": true,
+    "passes_stress_gate": true
+  },
+  "print_advice": {
+    "orientation": "Print on SIDE so the arch is continuous filament loops.",
+    "material": "PETG, ABS, or ASA \u2014 not brittle PLA.",
+    "walls": "5\u20136 perimeters",
+    "infill": "40\u2013100% gyroid",
+    "layer_height_mm": 0.2,
+    "top_bottom": 6
+  },
+  "measured_wall_segments_mm": [
+    {
+      "y0": 7.95,
+      "y1": 13.45,
+      "thickness": 5.5
+    }
+  ]
+}
